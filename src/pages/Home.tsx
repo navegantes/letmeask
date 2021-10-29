@@ -4,15 +4,14 @@ import illustrationImg from "../assets/images/illustration.svg";
 import LogoImg from "../assets/images/Falae-logo.svg";
 import googleIconImg from "../assets/images/google-icon.svg";
 
-import { useContext } from "react";
-import { AuthContext } from "../App";
 import { Button } from "../components/Button";
 
 import "../styles/auth.scss";
+import { useAuth } from "../hooks/useAuth";
 
 export function Home() {
     const history = useHistory();
-    const { user, signInWithGoolge } = useContext(AuthContext);
+    const { user, signInWithGoolge } = useAuth();
 
     async function handleCreateRoom() {
         if (!user) {
