@@ -1,6 +1,8 @@
 <p align="center">
-  <img alt="Letmeask" src=".github/logo.svg" width="160px">
+  <img alt="FalaÊ" src=".github/logo.svg" width="160px">
 </p>
+
+Essa aplicação é um clone do Projeto [letmeask](https://github.com/rocketseat-education/nlw-06-reactjs) apresetado na Next Level Week Together pela Rocketseat.
 
 <!-- <p align="center">
   <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06" />
@@ -29,8 +31,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/rocketseat-education/nlw-06-reactjs
-$ cd nlw-06-reactjs
+$ git clone https://github.com/navegantes/letmeask
+$ cd letmeask
 ```
 
 Para iniciá-lo, siga os passos abaixo:
