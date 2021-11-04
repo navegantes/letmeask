@@ -8,6 +8,19 @@
         margin-top: 8px;
     }
 
+    &.highlighted {
+        background: #e5faffff;
+        border: 1px solid #067b96ff;
+
+        footer .user-info span {
+            color: #29292e;
+        }
+    }
+
+    &.answered {
+        background: #dbdcdd;
+    }
+
     p {
         color: 29292e;
     }
@@ -17,7 +30,7 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 24px;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        // box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
 
         .user-info {
             display: flex;
@@ -34,6 +47,11 @@
                 color: #737380;
                 font-size: 14px;
             }
+        }
+
+        > div {
+            display: flex;
+            gap: 16px;
         }
 
         button {
