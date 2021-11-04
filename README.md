@@ -4,6 +4,8 @@
 
 Essa aplicação é um clone do Projeto [letmeask](https://github.com/rocketseat-education/nlw-06-reactjs) apresetado na Next Level Week Together pela Rocketseat.
 
+Acesse o app em [FalaÊ](https://letmeask-72379.web.app/).
+
 <!-- <p align="center">
   <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06" />
 
